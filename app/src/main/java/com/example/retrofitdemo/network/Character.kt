@@ -8,6 +8,7 @@ data class Character (
     val image:String
         )
 
-data class CharacterResponse(@Json(name="results")
+data class CharacterResponse(
+    @Json(name="results")
     val result: List<Character>
 )
